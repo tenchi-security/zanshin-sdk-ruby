@@ -25,10 +25,12 @@ Gem::Specification.new do |spec|
                   lib/zanshin/account.rb
                   lib/zanshin/alerts.rb
                   lib/zanshin/client.rb
-                  lib/zanshin/organization.rb
                   lib/zanshin/organization_followers.rb
                   lib/zanshin/organization_following.rb
+                  lib/zanshin/organization_members.rb
                   lib/zanshin/organization_scan_targets.rb
+                  lib/zanshin/organizations.rb
+                  lib/zanshin/scan_target.rb
                   lib/zanshin/summaries.rb
                   lib/zanshin/version.rb]
 
