@@ -3,6 +3,6 @@
 module Zanshin
   module SDK
     # The Zanshin SDK version
-    VERSION = '1.0.0'
+    VERSION = '1.0.1'
   end
 end

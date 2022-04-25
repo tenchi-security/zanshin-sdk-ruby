@@ -16,10 +16,13 @@ Gem::Specification.new do |spec|
 
   spec.metadata['source_code_uri'] = 'https://github.com/tenchi-security/zanshin-sdk-ruby'
   spec.metadata['rubygems_mfa_required'] = 'true'
+  spec.metadata['documentation_uri'] = 'https://www.rubydoc.info/gems/zanshin'
 
   spec.required_ruby_version = '>= 2.6'
   spec.require_paths = ['lib']
-  spec.files = %w[lib/zanshin.rb
+  spec.files = %w[README.md
+                  LICENSE.md
+                  lib/zanshin.rb
                   lib/zanshin/request/zanshin_request.rb
                   lib/zanshin/request/zanshin_request_error.rb
                   lib/zanshin/account.rb
