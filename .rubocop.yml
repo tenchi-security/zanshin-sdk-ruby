@@ -1,0 +1,24 @@
+AllCops:
+  NewCops: enable
+
+# Check the naming of accessor methods for get_/set_ disabled so the methods are similar to the Python SDK
+Naming/AccessorMethodName:
+  Enabled: false
+
+# HACK: At the moment these Cops will only be disabled in the alerts file, change this in the future
+Metrics/MethodLength:
+  Exclude:
+    - lib/zanshin/alerts.rb
+    - test/zanshin/alerts_test.rb
+Metrics/ParameterLists:
+  Exclude:
+    - lib/zanshin/alerts.rb
+Metrics/ModuleLength:
+  Exclude:
+    - lib/zanshin/alerts.rb
+Metrics/AbcSize:
+  Exclude:
+    - lib/zanshin/alerts.rb
+Metrics/ClassLength:
+  Exclude:
+    - test/zanshin/alerts_test.rb

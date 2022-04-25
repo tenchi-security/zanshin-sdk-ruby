@@ -1,0 +1,17 @@
+# Ignore all dotfiles...
+.*
+# Except for
+!.github
+!.gitignore
+!.editorconfig
+!.rubocop.yml
+!.yardopts
+# Doc folder
+doc
+# Coverage
+coverage
+# Package directories
+vendor
+# Gem development needs to ignore lock file
+# https://yehudakatz.com/2010/12/16/clarifying-the-roles-of-the-gemspec-and-gemfile/
+Gemfile.lock

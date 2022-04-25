@@ -1,0 +1,5 @@
+--list-undoc
+--markup=markdown
+--readme=README.md
+--title='Zanshin Ruby SDK'
+'lib/**/*.rb' - '*.md' - 'docs/**/*.md'
