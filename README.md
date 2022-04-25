@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/zanshin.svg)](https://badge.fury.io/rb/zanshin)
+
 # Zanshin Ruby SDK
 
 This Ruby gem contains an SDK to interact with the [API of the Zanshin](https://api.zanshin.tenchisecurity.com) from [Tenchi Security](https://www.tenchisecurity.com).
